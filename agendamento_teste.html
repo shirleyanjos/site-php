@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulário de Login e Registro com HTML5 e CSS3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="agendamento_teste.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paraagendamento"></a>
+     
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="agendamentoo">
+        <form method="post" action="validar1.php">
+          <h1>Agendamento</h1>
+          <p>
+            <label for="Nome_p">Nome</label>
+            <input id="Nome_p" name="Nome_p" required="required" type="text" />
+          </p>
+           <p>
+            <label for="CPF_p">CPF</label>
+            <input id="CPF_p" name="CPF_p" required="required" type="integer" />
+          </p>
+          <p>
+            <label for="email_p">Email</label>
+            <input id="email_p" name="email_p" required="required" type="text" />
+          </p>
+          <p>
+            <label for="telefone_p">Telefone</label>
+            <input id="telefone_p" name="telefone_p" required="required" type="integer" />
+          </p>
+          <p>
+            <label for="atendimento_p">Descreva o atendimento</label>
+            <input id="atendimento_p" name="atendimento_p" required="required" type="text" />
+          </p>
+          <p>
+            <label for="profissional">Profissional</label>
+            <input id="profissional" name="profissional" required="required" type="text" />
+          </p>
+         
+          <p>
+            <input type="submit" value="Enviar" name="entrar"/>
+          </p>
+
+          <p>
+            <a href="index.html"><input type="submit" value="Sair" href="index.html"/></a>
+          </p>
+
+
+        
+
+           
+ 
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
