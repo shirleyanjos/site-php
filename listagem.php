@@ -5,7 +5,7 @@
         <th>Email</th>
         <th>Telefone</th>
         <th>Atendimento</th>
-        <th>Profissional</th>
+
     </tr>
  
  <?php  
@@ -20,7 +20,7 @@
                    $email = $atendimento['Email'];
                    $telefone = $atendimento['Telefone'];
                    $atendimento = $atendimento['Atendimento'];
-                   $profissional = $atendimento['Profissional'];
+       
 
 
                    ?>
@@ -30,7 +30,7 @@
                     <td><?php echo $email ?></td>
                     <td><?php echo $telefone ?></td>
                     <td><?php echo $atendimento ?></td>
-                    <td><?php echo $profissional ?></td>
+
 
                    </tr>
             <?php }
