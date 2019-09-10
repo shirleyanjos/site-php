@@ -1,7 +1,8 @@
 <?php
  header('Content-Type: text/html; charset=utf-8');
     if (isset($_COOKIE['usuario'])) {
-    $login_cookie = $_COOKIE['usuario'];
+    $login_cookie = $_COOKIE['usuario']
+    echo$_COOKIE["usuario"];
 	}
         if(isset($login_cookie)){
             echo"<center><h2>Bem-Vindo, $login_cookie</h2></center>";

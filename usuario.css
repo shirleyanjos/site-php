@@ -1,0 +1,49 @@
+
+body {
+  background: url("img/saude1.png") ;
+  background-attachment: fixed;
+ 
+
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
+}
+input {
+  outline: none;
+}
+ 
+
+/*estilo do botão submit */
+input[type="submit"]{
+  width: 50%!important;
+  cursor: pointer;  
+  background: rgb(61, 157, 179);
+  padding: 30px 10px;
+  color: #fff;
+  font-size: 25px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+ 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+ 
+/*estilo do botão submit no hover */
+input[type="submit"]:hover{
+  background: #4ab3c6;
+}
+
+.sair{
+position: absolute;
+right: 0px;
+height: 10%;
+width:5% ;
+
+
+}
